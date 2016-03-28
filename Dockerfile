@@ -10,4 +10,6 @@
 # > docker run -p 80:8080 -d githubissuemover
 
 FROM google/dart-runtime
-MAINTAINER Nicolas Garnier <nivco@google.com>
+MAINTAINER Miro Cupak <mirocupak@gmail.com>
+
+ADD bin /app/bin
